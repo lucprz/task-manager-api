@@ -115,7 +115,7 @@ REDIS_HOST=localhost
 De esta forma, ya podemos correr los comandos
 
 ```bash
-docker-compose up -d
+docker-compose up --build -d
 ```
 
 y luego
