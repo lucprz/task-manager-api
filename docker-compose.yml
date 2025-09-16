@@ -29,8 +29,8 @@ services:
 
   api:
     build: .
-    image: nestjs-api
-    container_name: nestjs-api
+    image: task-manager-api
+    container_name: task-manager-api
     ports:
       - '3000:3000'
     volumes:
